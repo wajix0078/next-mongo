@@ -7,7 +7,7 @@ const createNote = async (pid, b) => {
 
     try {
         console.log('PID in the create note', pid)
-        let res = await fetch('http://localhost:3000/api', {
+        let res = await fetch('https://next-mongo-silk.vercel.app/api', {
             method: 'POST',
             headers: {
                 "Accept": "application/json",
